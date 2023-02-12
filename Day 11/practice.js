@@ -71,7 +71,7 @@ for (let i = 5; i >=0; i--) {
 // Continue
 
 - Only true condition will be skipped but program will finish.
-- Below function will show 0 to 10, except 4 (because 4 matches the condition).
+- Below function will show 0 to 10 value, except 4 (because 4 matches the condition).
 
 for (let i = 0; i <=10; i++) {
     if (i === 4) {
@@ -84,7 +84,7 @@ for (let i = 0; i <=10; i++) {
 // Break 
 
 - once condition is true after that the program will stop.
-- Below function iwll show 0 to 3, because once program reached to 4 it will break the program. 
+- Below function will show 0 to 3 value, because once program reached to 4 it will break the program. 
 
 for (let i = 0; i <=10; i++) {
     if (i === 4) {
