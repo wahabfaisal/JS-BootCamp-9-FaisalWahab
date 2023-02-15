@@ -1,5 +1,7 @@
 // JS Built-in Properties and Methods
 
+// ====================== String ======================
+
 // .length - Length of a String
 
 const greetings = "Hello, Good Evening!";
@@ -47,6 +49,7 @@ console.log(greetings.substring(5, 0)); // Hello
 
 // .split() - To split the string
 // specify the seperator inside te split method
+// If split() method has empty parameter, it will split each character of the string
 // Split will always return an Array.
 
 console.log(greetings.split(",")); // ['Hello', ' Good Evening!']
@@ -66,3 +69,19 @@ console.log(greetings.charCodeAt(0)); // 72 (ASCII value of H)
 // .replace() It will replace the 1st value with the 2nd value
 
 console.log(greetings.replace("Hello", "Morning")); // Hello, Good Morning!
+
+// ====================== Number ======================
+
+// Number() - This method will convert all srting number into Number data type
+// In case of Character converting to Number, will return NaN
+
+console.log(Number("234")); // 234
+console.log(Number("a1bc")); // NaN
+
+// parseInt - This method will convert all number into Number data type
+
+console.log(parseInt("231vma3")); // 231
+
+// parseInt - This method will convert all number into Number data type
+
+console.log(parseFloat("123.567")); // 123.567
